@@ -225,6 +225,7 @@ section{
     position: absolute; 
     right: 10px;
     margin-top: -80px;
+    
 
 }
 .social-icon{
@@ -380,34 +381,34 @@ section{
     background: crimson;
 }
 .skills-content .left .html::before{
-    width: 100%;
+    width: 65%;
 }
 .skills-content .left .css::before{
-    width: 90%;
+    width: 40%;
 }
 .skills-content .left .js::before{
-    width: 80%;
+    width: 30%;
+}
+.skills-content .left .angular::before{
+    width: 60%;
 }
 .skills-content .left .react::before{
-    width: 80%;
+    width: 25%;
 }
-.skills-content .left .jquery::before{
-    width: 50%;
-}
-.skills-content .right .nodejs::before{
+.skills-content .right .java::before{
     width: 90%;
 }
-.skills-content .right .expressjs::before{
-    width: 80%;
-}
-.skills-content .right .mongodb::before{
-    width: 100%;
+.skills-content .right .python::before{
+    width: 40%;
 }
 .skills-content .right .php::before{
-    width: 50%;
+    width: 30%;
 }
 .skills-content .right .mysql::before{
-    width: 70%;
+    width: 90%;
+}
+.skills-content .right .mongodb::before{
+    width: 45%;
 }
 .skills-content h3{
     color: #00ff00;
@@ -570,6 +571,11 @@ section{
 .slider-nav a:hover{
     opacity: 1;
 }
+
+
+
+
+
 * contact section styling */
 
 .contact .contact-content{
@@ -762,6 +768,7 @@ footer .social-icon{
     .contact .contact-content .column{
         width: 100%;
         margin-bottom: 35px;
+    
     }
     
 }
@@ -836,18 +843,24 @@ footer .social-icon{
         font-size: 23px;
         line-height: 38px;
     }
-    .profile-img{
+     .profile-img{
         position: static;
         align-items: center;
         height: 350px;
         margin: 0;
         
+        
     }
-    .div-img{
+     .div-img{
+    
         margin-top: 10px;
+        height: 350px;
         width: 100%;
         text-align: center;
-    }
+    } 
+
+    
+    
     .home .home-content{
         margin-left: 10vw;
     }
@@ -879,7 +892,7 @@ footer .social-icon{
         margin-left: 0;
     }
 
-    .calculator,.tictactoe,.movie,.job{
+    .calculator,.tictactoe,.project1,.project2,.project3,.project4{
         position: static;
         display: grid;
         grid-template-columns: auto;
@@ -892,8 +905,11 @@ footer .social-icon{
     }
     
     .contact{
-        margin-top: 250px;
+        
+        margin-top: 550px;
+        
     }
+
     
     .social-icon{
         width: 30px;

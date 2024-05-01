@@ -73,7 +73,7 @@ $(document).ready(function(){
 });
 
 function sendEmail(){
-    emailjs.send("service_j9oc7j5","template_7y1s9jb",{
+    emailjs.send("service_0q9ms1b","template_hcqp8ti",{
         name: document.getElementById("name").value,
         email: document.getElementById("email").value,
         mobile: document.getElementById('mobile').value,
